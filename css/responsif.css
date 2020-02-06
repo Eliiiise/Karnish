@@ -1,0 +1,215 @@
+@media all and (max-width: 1200px) {
+	.story {
+		font-size: 36px;
+		margin: 100px 10%;
+	}
+
+	.story span{
+		border-bottom: 3.5px solid white;
+	}
+
+	.flex span.bar {
+    width: 480px;
+    top: 47%;
+   }
+
+   footer .imgf,footer img:nth-of-type(2) {
+    width: 14%;
+}
+
+    .cercle {
+    	margin: auto;
+    	top:0;
+    	left: 0;
+    	bottom:0;
+    	right:0;
+    width: 200px;
+    height: 200px;
+    transition: all 1s;
+    }
+
+    .cerclepasla {
+	    opacity: 0;
+    }
+
+    .wrap {
+    	padding: 0 50px;
+    }
+
+    h3 {
+    font-size: 30px;
+    margin-bottom: 6px;
+	}
+
+	p.name {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 12px;
+    }
+}
+
+@media all and (max-width: 900px) {
+	h1 {
+		font-size: 70px;
+	}
+
+    .carousel-cell {
+    width: 100%; /* half-width */
+    }
+
+    .slogan {
+    font-size: 60px;
+    }
+    
+    footer a, .brown a {
+    font-size: 35px;
+    line-height: 56px;
+}
+
+.cercle {
+	   width: 150px;
+    height: 150px;
+}
+
+h2 {
+	letter-spacing: 24px;
+}
+
+
+   .flex2 {
+   	width: calc( 100% - 200px );
+   }
+}
+
+@media all and (max-width: 650px) {
+    footer .imgf, footer img:nth-of-type(2) {
+        display: none;
+    }
+
+    .flex2 {
+   	     width: calc( 100% - 100px );
+   	     right: 50px;
+   }
+   section .flex3 {
+    flex-direction: column;
+   }
+
+   .p30 {
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 30px;
+    }
+
+    .p70 {
+    width: 100%;
+    }
+
+    section span.bar {
+    display: none;
+     }
+
+     .top li:nth-of-type(1) {
+     	display: none;
+     }
+
+     header nav div {
+     	justify-content: end;
+     }
+
+     .top li:nth-of-type(2) {
+     	margin-left: calc( 50% - 50px );
+     }
+
+     .story {
+		margin: 100px 0px;
+	}
+
+	.brown {
+	width: 100%;
+    }
+
+    .cercle {
+    width: 100px;
+    height: 100px;
+    }
+
+    .cercle p {
+    font-size: 10px;
+    letter-spacing: 2px;
+    }
+
+    .choise span {
+    line-height: 85px;
+    }
+
+    section .choise {
+    font-size: 50px;
+    }
+
+    .main-carousel {
+    margin-top: -40px;
+    }
+
+    header nav div {
+    width: 40px;
+   }
+
+   header span.bar {
+    width: 83%;
+    left: -6%;
+   }
+
+}
+
+@media all and (max-width: 500px) {
+	.wrap {
+    	padding: 0 10px;
+	}
+
+	.story {
+    margin: 80px -1px;
+    }
+
+    .story {
+    font-size: 25px;
+    width: 111px;
+    }
+
+    .story span {
+    border-bottom: 2.5px solid white;
+    padding-bottom: 3px;
+    line-height: 6vh;
+    }
+
+    .slogan {
+    font-size: 35px;
+    }
+
+    h2 {
+    letter-spacing: 20px;
+    font-size: 12px; 
+    }
+
+    h3 {
+    font-size: 26px;
+    margin-bottom: 6px;
+    }
+
+    li.menu{
+    	margin-right: 30px;
+    }
+
+    section {
+	padding: 140px 0; 
+    }
+
+    section .choise {
+    margin-top: 0;
+    }
+
+    .flex2 {
+    	top: 200px;
+        width: calc( 100% - 40px );
+        right: 20px;
+    }
+}
